@@ -1,0 +1,114 @@
+<!-- Sakti Martinez Primero Dam BB-->
+<html lang="es">
+<head>
+    <div id="header" >
+        <link rel="shortcut icon" href="../imagenes/favicon-96x96.png" type="image/png" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marcas Tarea</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+    </div>
+</head>
+<bod>
+         <div id="header" >
+            <nav> 
+               <ul>
+                    <li><a href="../Index.html">Tim Berners Lee</a>  </li>
+                    <li><a href="./Portofolio.html">Portfolio</a> </li>
+                    <li><a href= "./Tabla.html">Tabla de precios</a> </li>
+                    <li><a href= "./Contacto.html">Contactame</a>  </li>
+                </ul>
+            </nav>
+            <img src="../imagenes/imagen-menu.png" width="30%" alt="Imagen menu" usemap=#navegacion>
+            <map name=navegacion>
+                <area shape="rect" coords="15,44,107,132" href="../Index.html" />
+                <area shape="circle" coords="171,92,51" href="./Portofolio.html" />
+                <area shape="polygon" coords="232,135,288,43,344,135" href="./Tabla.html" />
+                <area shape="rect" coords="351,32,439,140" href="./Contacto.html" />
+            </map>
+       
+        </div>
+    <div id="main-content">
+        <h1>Contactame</h1>
+        <h2>Formulario de contacto</h2>
+        <form>
+                <fieldset>
+                        <legend><strong>Datos Personales </strong> </legend>
+                            
+                            <div>                            
+                                <label for="nombre"><strong>Nombre:</strong> </label> 
+                                <input id="nombre" type="text" placeholder="Introduzca su nombre" name="nombre" required />*
+                            </div>
+                            <div>
+                                <label for="Apellidos"><strong>Apellidos:</strong> </label> 
+                                <input id="Apellidos" type="text" placeholder="Introduzca sus apellidos"name="Apellidos"  required />*
+                            </div>
+                            <div>
+                                   <label for="email"><strong>Email:</strong> </label> 
+                                   <input  id="email" type="email" name="email" placeholder="Introduzca su E-mail"  required />*
+                            </div>
+                                <strong>Fecha de Nacimiento:</strong>  <input type="date"
+                                 min="1940-01-01" max="2040-12-31">
+                            <div>
+                                <strong> Edad:</strong> <input type="number" name="number" value="" min="10" max="100"      title="Debes rellenar el campo Nombre">
+                            </div>
+                            <strong>Sexo:</strong> <input type="radio" name="sexo" value="hombre"  /> <strong>Homre</strong>
+                            <input type="radio" name="sexo" value="mujer" /> <strong>Mujer</strong> 
+                            
+                            <div>
+                                   <strong>Pais:</strong> 
+                               
+                                <select name="pais">
+                                  <option value="1">España</option>
+                                  <option value="2">Francia</option>
+                                  <option value="3">Holanda</option>
+                                  <option value="4">Italia</option>
+                                  <option value="5">Alemania</option>
+                                  <option value="7">Suiza</option>
+                                  <option value="8">Portugal</option>
+                                  <option value="9">Suecia</option>
+                                  
+                                </select>
+                            </div>    
+                                
+                  </fieldset>
+                  <fieldset>
+                    <legend><strong>Otros Datos</strong></legend>
+                    <div>
+                    <label for="descripcion">
+                        <strong>Mensaje:</strong></label> 
+                    <textarea id="descripcion" name="descripcion" cols="40" rows="5" placeholder="Introduzca un mensaje"></textarea>
+                    </div>
+                       <strong>Adjuntar una Foto :</strong> <input type="file" name="adjunto" />   
+                                             
+
+                  </fieldset>
+                  
+                  <input name="puesto_directivo" type="checkbox" value="direccion"/> <strong>He leido las condiciones...</strong>
+                  <div>
+                  <input type="reset" name="limpiar" value="Borrar" />
+
+                  <button>enviar</button>
+                  </div>
+        </form>
+    </div>    
+        <div id="side-content">
+            <p><h1><strong>centro de referencia</strong></h1></p>
+            <iframe width="640px" height="400px"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14031.118932241417!2d-16.2832682!3d28.4560556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1636289857692!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        </div>
+        
+        <div id="footer">
+            <p>
+                ©2040<a href="../Index.html">www.MisiTio.com</a>
+            </p>
+        </div>
+
+
+    
+    
+    
+</body>
+</html>
